@@ -1,0 +1,105 @@
+<!-- width是宽度 -->
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="图片展示">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="./icon.png">
+<title>图片秀 | 鑫鑫草莓园</title>
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="theme-color" content="#3F51B5">
+
+<base target="_blank">
+
+<link rel="stylesheet" href="./mdi/css/materialdesignicons.min.css">
+<!-- https://cdn.jsdelivr.net/npm/@mdi/font@5.3.45/css/materialdesignicons.min.css -->
+<link rel="stylesheet" href="./zy/material.indigo-pink.min.css">
+<script src="./zy/material.js"></script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-100427567-3', 'auto');
+ga('send', 'pageview');
+</script>
+<script>
+var oldOnLoad = window.onload;
+window.onload = function() {
+    oldOnLoad && oldOnLoad();
+    var anchors = document.querySelectorAll('a');
+    for (var i = 0; i < anchors.length; ++i) {
+        var anchor = anchors[i];
+        anchor.onclick = function() {
+            window.ga && window.ga('send', 'event', 'Link', 'Click link', this.href, { transport: 'beacon' });
+        }
+    }
+}
+</script>
+
+<script async src="./zy/js.js"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-9HJ7W91XL3');
+</script>
+
+<link rel="stylesheet" href="./zy/index.css">
+</head>
+
+<body>
+<!-- 起头开始 -->
+<div>
+<header class="mdl-color--indigo-700 mdl-color-text--white mdl-shadow--4dp">
+    <section class="title mdl-color--indigo-500">
+        <h1 class="mdl-typography--display-2">图片展示</h1>
+        <p class="mdl-typography--body-1">纯实拍哦! | 鑫鑫草莓园</p>
+    </section>
+</header>
+<!-- 起头结束 -->
+<!-- 上半结束下半开始 -->
+<main class="mdl-color--blue-grey-50">
+<!-- 板块开始 -->
+    <section class="mdl-color--white mdl-shadow--2dp">
+        <h2 class="mdl-typography--display-1">开始喽～</h2>
+        <section>
+            <h3 class="mdl-typography--title mdl-typography--title mdl-color-text--indigo-500">嘿! 光看可不行哦⊙∀⊙!</h3><p></p>
+            <h3 class="mdl-typography--title mdl-typography--title mdl-color-text--indigo-500">去买点吧! 比你想象的更好吃!</h3>
+            <p></p><img style="width: 100%;" src="./img/more/01.jpg">
+            <p></p><img style="width: 100%;" src="./img/more/02.jpg">
+            <p></p><img style="width: 100%;" src="./img/more/03.jpg">
+            <p></p><img style="width: 100%;" src="./img/more/04.jpg">
+            <p></p><img style="width: 100%;" src="./img/more/05.jpg">
+            <p></p><img style="width: 100%;" src="./img/more/06.jpg">
+            <p></p><img style="width: 100%;" src="./img/more/07.jpg">
+            <p></p><img style="width: 100%;" src="./img/more/08.jpg">
+            <p></p><img style="width: 100%;" src="./img/more/09.jpg">
+            <p></p><img style="width: 100%;" src="./img/more/10.jpg">
+        </section>
+    </section>
+<!-- 板块结束 -->
+<!-- 开新板块 -->
+<!-- 最后一板块结束 -->
+<!-- 提醒提醒提醒提醒提醒提醒提醒提醒提醒 -->
+<!-- 版权信息开始 -->
+    <section class="mdl-color--white mdl-shadow--2dp"
+        <section>
+            <p class="mdl-typography--subhead mdl-typography--subhead-color-contrast">© 网站由HaShiQi编写</p>
+        </section>
+    </section>
+<!-- 版权信息结束 -->
+</main>
+</div>
+<a href="./main.html" title="To" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+    <i class="mdi mdi-backburger mdi-24px"></i>
+</a>
+<footer>
+</footer>
+</body>
+</html>
